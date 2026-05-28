@@ -1,0 +1,14 @@
+torch
+pytorch-lightning
+torchmetrics
+numpy
+scipy
+pandas
+matplotlib
+PyYAML
+easydict
+scikit-learn
+mne
+braindecode
+tqdm
+einops
