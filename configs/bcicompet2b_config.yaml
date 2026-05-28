@@ -1,0 +1,29 @@
+BASE_PATH: "./Datasets/BCI_Competition_IV/BCI_Competition_IV_2b_Raw"
+LOG_PATH: "./logs"
+CKPT_PATH: "./checkpoints"
+
+SEED: 42
+GPU_NUM: "0"
+num_workers: 0
+
+EPOCHS: 500
+batch_size: 16
+lr: 1e-3
+weight_decay: 0.075
+k_folds: 10
+window_length: 3
+smoothing: 0.05
+dropout: 0.1
+
+task: "BCICompet2b"
+num_classes: 2
+num_channels: 3
+downsampling: 0
+sampling_rate: 250
+num_subjects: 9
+target_subject: 0
+is_test: False
+
+log_etc: "MASSANet"
+filter_bank: False
+bank: [[[4, 16]], [[16, 40]]]
