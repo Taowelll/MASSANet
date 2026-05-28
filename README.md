@@ -8,8 +8,8 @@ This repository contains the training, evaluation, model, and preprocessing code
 
 ## Recommended environment
 
-- Python: `3.10`
-- PyTorch: `1.12.0`
+- Python: `3.12.4`
+- PyTorch: `2.7.0`
 
 ## Datasets
 
