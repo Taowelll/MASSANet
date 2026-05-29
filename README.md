@@ -81,6 +81,7 @@ If you find this repository useful, please cite:
 ```bibtex
 @article{LUO2026104939,
   title = {MASSANet: Multiscale adaptive spectral-spatial dual-path attention network for motor imagery decoding from EEG},
+  author = {Weitao Luo and Mohammed A.A. Al-qaness},
   journal = {Information Processing \& Management},
   volume = {63},
   number = {8},
